@@ -1,0 +1,33 @@
+Capture live network packets and identify basic protocols and traffic types.
+
+step 1:Install Wireshark.
+ download from wireshark.org and run installer.
+ run Wireshark as Administrator for full captur.
+
+step 2:Start capturing on your active network interface.
+Open Wireshark.
+Select the active network interface.
+Click the interface to start capturing live packets.
+
+step 3:Browse a website or ping a server to generate traffic.
+Ping a Server:
+Open your Command Prompt (Windows) or Terminal (macOS/Linux).
+Type ping "ip address" and press Enter. and you can see replies
+you can browse a website aslo use http makes the traffic easier to see for this lab.
+
+step 4:.Stop capture after a minute.
+
+step 5:.Filter captured packets by protocol and 6.Identify at least 3 different protocols in the capture.
+
+DNS — look for queries like Standard query.
+HTTP — GET/POST requests, URLs visible.
+TCP — Transport-level connection packets (SYN, ACK).
+ICMP — ping requests/replies.
+
+step 6:Export the capture as a .pcap file.
+File → Export Specified Packets... (if you want to export only protocol-specific traffic).
+To export full capture: File → Save As... and save .pcap.
+Name it yourname_miniproject.pcap and attach to your report.
+
+
+
